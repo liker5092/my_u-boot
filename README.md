@@ -6,8 +6,11 @@ openwrt u-boot list
 高通IPQ系列定制U-Boot，源自开源的QSDK 12.5。支持以下功能：
 
 集成U-Boot的webfailsafe模式
+
 集成DHCP服务
+
 集成Web页面修改环境变量
+
 支持U-Boot更新、固件更新、CDT更新、MIBIB更新、GPT更新、ART更新、initramfs启动进行调试和恢复
 支持在环境变量中自定义reset_key=<GPIO_NUM>，（覆盖模式）以方便在没有添加支持的设备上启用按压reset按键进入uboot的webfailsafe模式进行相应的升级操作
 设置方法：①ttl下输入
@@ -23,10 +26,17 @@ openwrt u-boot list
 
 ## 2
 此项目已适配以下 IPQ60xx eMMC 机型：老板说基本 1 的大佬
+支持
+
 京东云太乙（RE-CS-07）
+
 京东云亚瑟（RE-SS-01）
+
 京东云雅典娜（RE-CS-02）
+
 连我 NN6000（V1 & V2）
+
 红米 AX5 JDCloud（RA50）
+
 
 [https://github.com/chenxin527/uboot-ipq60xx-emmc-build]
