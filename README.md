@@ -41,7 +41,7 @@ openwrt u-boot list
 
 [https://github.com/chenxin527/uboot-ipq60xx-emmc-build]
 
-##3
+## 3
 rtl 798x 系统的UBOOT
 支持大部分的机型
 请参考以下
